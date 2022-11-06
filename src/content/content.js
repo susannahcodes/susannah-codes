@@ -5,7 +5,7 @@ export const ContactStrings = {
 
 export const SkillStrings = {
     title: "Skills",
-    LanguagesTitle: "Languages (in order of most experience)",
+    LanguagesTitle: "Languages",
     SoftwaresTitle: "Softwares",
     CPP: "C++",
     JS: "JavaScript/TypeScript",

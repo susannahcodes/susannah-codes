@@ -12,12 +12,10 @@ color: #E7E5DF;
 `
 
 const Softwares = styled.div`
-padding-left: 50px;
 font-size: 30px;
 `
 
 const Languages = styled.div`
-padding-right: 50px;
 font-size: 30px;
 `
 
@@ -30,6 +28,13 @@ const SkillBullets = styled.div`
     font-size: 25px;
 `
 
+const Divider = styled.div`
+    background-color: #CB8589;
+    width: 2px;
+    margin-left: 30px;
+    margin-right: 30px;
+`
+
 function Skills() {
     return (
         <BioStyle>
@@ -37,6 +42,7 @@ function Skills() {
             <SkillsWrapper>
                 <Languages>
                     <p>{SkillStrings.LanguagesTitle}</p>
+                    <p>*in order of most experience</p>
                     <SkillBullets>
                         <li>{SkillStrings.CPP}</li>
                         <li>{SkillStrings.JS}</li>
@@ -44,6 +50,7 @@ function Skills() {
                         <li>{SkillStrings.Python}</li>
                     </SkillBullets>
                 </Languages>
+                <Divider />
                 <Softwares>
                     <p>{SkillStrings.SoftwaresTitle}</p>
                     <SkillBullets>

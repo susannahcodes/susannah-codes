@@ -20,12 +20,14 @@ const ResumeButton = styled.button`
     background-color: #7298D7;
     color: #E7E5DF;
     border: 1px solid black;
+    height: 60px;
 `
 
 const Nav = styled.div`
 display: flex;
 flex-direction: row;
-padding-right: 250px;
+padding-right: 200px;
+align-items: center;
 `
 
 const NavLink = styled.p`
