@@ -35,11 +35,6 @@ const TextArea = styled.textarea`
     resize: none;
 `
 
-const Socials = styled.div`
-    display: flex;
-    flex-direction: row;
-`
-
 const SubmitButton = styled.button`
     background-color: #CB8589;
     color: white;
