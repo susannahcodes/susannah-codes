@@ -1,6 +1,5 @@
 import styled from "styled-components";
 import { ContactStrings } from "../content/content"
-import { FaTwitter, FaLinkedin, FaGithub } from "react-icons/fa";
 import { SectionHeader } from "./SectionHeader";
 
 const BioStyle = styled.div`
@@ -12,12 +11,6 @@ display: flex;
 justify-content: center;
 flex-direction: column;
 background-color: #E7E5DF;
-color: #2A2A2A;
-`
-const BioText = styled.div`
-display: flex;
-width: 50%;
-flex-direction: column;
 color: #2A2A2A;
 `
 

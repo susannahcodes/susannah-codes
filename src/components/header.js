@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 import { TypeAnimation } from 'react-type-animation';
 
 const HeaderStyle = styled.div`
