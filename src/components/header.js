@@ -18,9 +18,10 @@ padding: 50px 100px;
 const ResumeButton = styled.button`
     text-decoration: none;
     background-color: #7298D7;
-    color: #E7E5DF;
     border: 1px solid black;
-    height: 60px;
+    height: 55px;
+    border-radius: 15px;
+    color: white;
 `
 
 const Nav = styled.div`

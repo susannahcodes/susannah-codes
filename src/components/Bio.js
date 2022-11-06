@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import "./Bio.css"
 import { FaTwitter, FaLinkedin, FaGithub } from "react-icons/fa";
 import { TypeAnimation } from 'react-type-animation';
 
@@ -37,10 +38,6 @@ const Socials = styled.div`
 
 const SocialLink = styled.a`
     padding-right: 15px;
-    &:hover {
-        color: black;
-        transition: 0.3s ease-out;
-    }
 `
 
 function Bio() {
@@ -60,9 +57,9 @@ function Bio() {
 
                 <p>I'm a video game UI programmer and front end web developer with {expYears} years of AAA industry experience.</p>
                 <Socials>
-                    <SocialLink href="https://www.twitter.com/susannahcodes" target="_blank"><FaTwitter color="#E7E5DF" /></SocialLink>
-                    <SocialLink href="https://www.linkedin.com/in/susannahcodes" target="_blank"><FaLinkedin color="#E7E5DF" /></SocialLink>
-                    <SocialLink href="https://www.github.com/susannahjones" target="_blank"><FaGithub color="#E7E5DF" /></SocialLink>
+                    <SocialLink href="https://www.twitter.com/susannahcodes" target="_blank"><FaTwitter className="changeColor" /></SocialLink>
+                    <SocialLink href="https://www.linkedin.com/in/susannahcodes" target="_blank"><FaLinkedin className="changeColor" /></SocialLink>
+                    <SocialLink href="https://www.github.com/susannahjones" target="_blank"><FaGithub className="changeColor" /></SocialLink>
                 </Socials>
             </BioText>
         </BioStyle>

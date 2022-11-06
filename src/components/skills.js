@@ -35,14 +35,22 @@ const Divider = styled.div`
     margin-right: 30px;
 `
 
+const SkillSubHeader = styled.div`
+    font-size: 18px;
+`
+
+const SkillHeader = styled.div`
+    font-size: 25px;
+`
+
 function Skills() {
     return (
         <BioStyle>
             <SectionHeader text={SkillStrings.title} />
             <SkillsWrapper>
                 <Languages>
-                    <p>{SkillStrings.LanguagesTitle}</p>
-                    <p>*in order of most experience</p>
+                    <SkillHeader>{SkillStrings.LanguagesTitle}</SkillHeader>
+                    <SkillSubHeader>*in order of most experience</SkillSubHeader>
                     <SkillBullets>
                         <li>{SkillStrings.CPP}</li>
                         <li>{SkillStrings.JS}</li>
@@ -52,7 +60,7 @@ function Skills() {
                 </Languages>
                 <Divider />
                 <Softwares>
-                    <p>{SkillStrings.SoftwaresTitle}</p>
+                    <SkillHeader>{SkillStrings.SoftwaresTitle}</SkillHeader>
                     <SkillBullets>
                         <li>{SkillStrings.SourceControl}</li>
                         <li>{SkillStrings.IDEs}</li>

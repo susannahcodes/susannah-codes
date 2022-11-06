@@ -1,0 +1,8 @@
+.changeColor {
+    color: #E7E5DF;
+}
+
+.changeColor:hover {
+    color: #7298D7;
+    transition: 0.3s ease-out;
+}

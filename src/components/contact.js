@@ -33,10 +33,14 @@ const TextArea = styled.textarea`
     font-size: 15px;
     border: none;
     resize: none;
+    font-family: Segoe UI;
+    &: selection {
+        background-color: #7298D7 !important;
+    }
 `
 
 const SubmitButton = styled.button`
-    background-color: #CB8589;
+    background-color: #7298D7;
     color: white;
     height: 50px;
     width: 100px;
