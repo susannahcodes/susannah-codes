@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import "./Bio.css"
-import { FaTwitter, FaLinkedin, FaGithub } from "react-icons/fa";
+import { FaTwitter, FaLinkedin, FaGithub, FaEnvelope } from "react-icons/fa";
 import { TypeAnimation } from 'react-type-animation';
 
 const BioStyle = styled.div`
@@ -22,6 +22,7 @@ flex-direction: column;
 const ProfileImage = styled.img`
     margin-right: 100px;
     border-radius: 150px;
+    filter: drop-shadow(10px 5px 5px #2A2A2A);
 `
 
 const Title = styled.p`
@@ -60,6 +61,7 @@ function Bio() {
                     <SocialLink href="https://www.twitter.com/susannahcodes" target="_blank"><FaTwitter className="changeColor" /></SocialLink>
                     <SocialLink href="https://www.linkedin.com/in/susannahcodes" target="_blank"><FaLinkedin className="changeColor" /></SocialLink>
                     <SocialLink href="https://www.github.com/susannahjones" target="_blank"><FaGithub className="changeColor" /></SocialLink>
+                    <SocialLink href="mailto:susannahcodes@gmail.com" target="_blank"><FaEnvelope className="changeColor" /></SocialLink>
                 </Socials>
             </BioText>
         </BioStyle>
