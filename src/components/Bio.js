@@ -56,7 +56,7 @@ function Bio() {
                         repeat={Infinity}
                     />
                 </Title>
-                <p>I'm a British American video game UI programmer and front end web developer with {expYears} years of experience in AAA game development.</p>
+                <p>I'm a British-American video game UI programmer and front end web developer with {expYears} years of experience in AAA game development.</p>
                 <div>I'm very passionate about UI/UX design and implementation and ensuring that all players have a positive user experience.</div>
                 <br />
                 <Socials>
