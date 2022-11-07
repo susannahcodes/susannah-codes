@@ -65,7 +65,7 @@ function Contact() {
                 {ContactStrings.subtitle}
             </div>
             <br />
-            <ContactForm name="contact" method="POST" data-netlify="true">
+            <ContactForm name="contact" netlify>
                 <p>
                     <Input type="text" name="name" placeholder="Name" />
                 </p>
