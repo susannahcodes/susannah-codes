@@ -61,6 +61,7 @@ function Skills() {
                 <Divider />
                 <Softwares>
                     <SkillHeader>{SkillStrings.SoftwaresTitle}</SkillHeader>
+                    <SkillSubHeader><br />{" "}</SkillSubHeader>
                     <SkillBullets>
                         <li>{SkillStrings.SourceControl}</li>
                         <li>{SkillStrings.IDEs}</li>

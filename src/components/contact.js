@@ -23,13 +23,13 @@ color: #2A2A2A;
 `
 
 const Input = styled.input`
-    width: 600px;
+    width: 800px;
     height: 40px;
     font-size: 15px;
     border: none;
 `
 const TextArea = styled.textarea`
-    width: 600px;
+    width: 800px;
     font-size: 15px;
     border: none;
     resize: none;

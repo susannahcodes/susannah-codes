@@ -32,7 +32,7 @@ align-items: center;
 `
 
 const NavLink = styled.p`
-    margin: 30px;
+    margin-right: 25px;
     cursor: pointer;
         &: hover {
         color: #7298D7;
@@ -55,6 +55,11 @@ const HomeNavLink = styled.div`
     cursor: pointer;
     max-width: 200px;
     max-height: 100px;
+    font-family: 'M PLUS Code Latin';
+    &: hover {
+        color: #7298D7;
+        transition: 0.3s ease-out;
+    }
 `
 
 
