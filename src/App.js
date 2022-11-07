@@ -5,7 +5,7 @@ import Bio from './components/Bio';
 import Contact from './components/contact';
 import Projects from './components/projects';
 import Skills from './components/skills';
-import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
+import { Element } from 'react-scroll'
 
 
 const Divider = styled.div`
