@@ -9,11 +9,11 @@ z-index: 100;
 display: flex;
 background-color: #2A2A2A;
 color: #E7E5DF;
-height: 10px;
+height: 0px;
 font-size: 25px;
 justify-content: space-between;
 align-items: center;
-padding: 50px 100px;
+padding: 40px 100px;
 `
 const ResumeButton = styled.button`
     text-decoration: none;
@@ -73,7 +73,7 @@ function Header() {
     return (
         <HeaderStyle>
             <HomeNavLink>
-                <Link to="home">
+                <Link to="home" smooth={true}>
                     <TypeAnimation
                         sequence={[
                             'susannah.codes', 2000
@@ -86,13 +86,13 @@ function Header() {
             </HomeNavLink>
             <Nav>
                 <NavLink>
-                    <Link to="projects">Projects</Link>
+                    <Link to="projects" smooth={true}>Projects</Link>
                 </NavLink>
                 <NavLink>
-                    <Link to="skills">Skills</Link>
+                    <Link to="skills" smooth={true}>Skills</Link>
                 </NavLink>
                 <NavLink>
-                    <Link to="contact">Contact</Link>
+                    <Link to="contact" smooth={true}>Contact</Link>
                 </NavLink>
                 <ResumeButton>
                     <ResumeLink id="myLink" href="https://docs.google.com/document/d/1JL2DDW9xMgGqjbAPj0sqHvxC6nLBiD2MXlNEg8bXVRQ/edit?usp=sharing" target="_blank">📄Resume</ResumeLink>
