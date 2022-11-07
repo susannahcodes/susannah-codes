@@ -5,6 +5,8 @@ import Bio from './components/Bio';
 import Contact from './components/contact';
 import Projects from './components/projects';
 import Skills from './components/skills';
+import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
+
 
 const Divider = styled.div`
   background-color: #cb8589;
@@ -15,13 +17,21 @@ export const App = () => {
   return (
     <div>
       <Header />
-      <Bio id="home" />
+      <Element name="home">
+        <Bio id="home" />
+      </Element>
       <Divider />
-      <Projects id="projects" />
+      <Element name="projects">
+        <Projects id="projects" />
+      </Element>
       <Divider />
-      <Skills id="skills" />
+      <Element name="skills">
+        <Skills id="skills" />
+      </Element>
       <Divider />
-      <Contact id="contact" />
+      <Element name="contact">
+        <Contact id="contact" />
+      </Element>
     </div>
   );
 }
