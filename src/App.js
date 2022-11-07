@@ -37,7 +37,7 @@ export const App = () => {
     return () => window.removeEventListener("resize", updateMedia)
   })
 
-  if (isDesktop == true) {
+  if (isDesktop === true) {
     return (
       <div>
         <Header />
@@ -60,7 +60,7 @@ export const App = () => {
     );
   }
 
-  else if (isDesktop != true) {
+  else if (isDesktop !== true) {
     return (
       <div>
         <MobileHeader />
