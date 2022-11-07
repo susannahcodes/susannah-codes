@@ -13,6 +13,7 @@ background-color: #E7E5DF;
 
 const ProjectsWrapper = styled.div`
 display: flex;
+flex-wrap: wrap;
 justify-content: space-between;
 `
 
