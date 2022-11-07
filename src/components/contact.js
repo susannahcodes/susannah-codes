@@ -59,16 +59,16 @@ function Contact() {
             <br />
             <form name="contact" method="POST" data-netlify="true" style={{ display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center", color: "#2A2A2A" }}>
                 <p>
-                    <Input type="text" name="name" placeholder="Name" />
+                    <Input required type="text" name="name" placeholder="Name" />
                 </p>
                 <p>
-                    <Input type="email" name="email" placeholder="Email" />
+                    <Input required type="email" name="email" placeholder="Email" />
                 </p>
                 <p>
-                    <Input type="text" name="subject" placeholder="Subject" />
+                    <Input required type="text" name="subject" placeholder="Subject" />
                 </p>
                 <p>
-                    <TextArea rows="7" name="message" placeholder="Message"></TextArea>
+                    <TextArea required rows="7" name="message" placeholder="Message"></TextArea>
                 </p>
                 <p>
                     <SubmitButton type="submit">Submit</SubmitButton>
