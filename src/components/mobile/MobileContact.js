@@ -72,7 +72,7 @@ function MobileContact() {
                     <TextArea required rows="7" name="message" placeholder="Message"></TextArea>
                 </p>
                 <p>
-                    <SubmitButton type="submit">Submit</SubmitButton>
+                    <SubmitButton type="submit">Send</SubmitButton>
                 </p>
             </form>
         </BioStyle >
