@@ -16,17 +16,9 @@ display: flex;
 justify-content: space-between;
 `
 
-
-const Divider = styled.div`
-width: 100%;
-height: 40px;
-background-color: #cb8589;
-`
-
 function Projects() {
     return (
         <BioStyle>
-            <Divider />
             <SectionHeader text={ProjectStrings.title} />
             <ProjectsWrapper>
                 <ProjectOverlay

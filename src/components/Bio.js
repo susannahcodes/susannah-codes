@@ -25,8 +25,8 @@ const ProfileImage = styled.img`
     filter: drop-shadow(10px 5px 5px #2A2A2A);
 `
 
-const Title = styled.p`
-    font-size: 40px;
+const Title = styled.div`
+    font-size: 45px;
     font-family: 'M PLUS Code Latin';
 `
 
@@ -61,7 +61,7 @@ function Bio() {
                     <SocialLink href="https://www.twitter.com/susannahcodes" target="_blank"><FaTwitter className="changeColor" /></SocialLink>
                     <SocialLink href="https://www.linkedin.com/in/susannahcodes" target="_blank"><FaLinkedin className="changeColor" /></SocialLink>
                     <SocialLink href="https://www.github.com/susannahjones" target="_blank"><FaGithub className="changeColor" /></SocialLink>
-                    <SocialLink href="mailto:susannahcodes@gmail.com" target="_blank"><FaEnvelope className="changeColor" /></SocialLink>
+                    <SocialLink href="mailto:susannahcodes@gmail.com"><FaEnvelope className="changeColor" /></SocialLink>
                 </Socials>
             </BioText>
         </BioStyle>

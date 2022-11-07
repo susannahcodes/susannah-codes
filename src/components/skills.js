@@ -12,11 +12,11 @@ color: #E7E5DF;
 `
 
 const Softwares = styled.div`
-font-size: 30px;
+// font-size: 30px;
 `
 
 const Languages = styled.div`
-font-size: 30px;
+// font-size: 30px;
 `
 
 const SkillsWrapper = styled.div`
@@ -25,14 +25,15 @@ justify-content: center;
 `
 
 const SkillBullets = styled.div`
-    font-size: 25px;
+    font-size: 20px;
+    padding-top: 10px;
 `
 
 const Divider = styled.div`
     background-color: #CB8589;
     width: 2px;
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 150px;
+    margin-right: 150px;
 `
 
 const SkillSubHeader = styled.div`
@@ -40,7 +41,7 @@ const SkillSubHeader = styled.div`
 `
 
 const SkillHeader = styled.div`
-    font-size: 25px;
+    font-size: 30px;
 `
 
 function Skills() {

@@ -56,9 +56,9 @@ function Contact() {
     return (
         <BioStyle>
             <SectionHeader text={ContactStrings.title} />
-            <p>
+            <div>
                 {ContactStrings.subtitle}
-            </p>
+            </div>
             <ContactForm name="contact" method="POST" data-netlify="true">
                 <p>
                     <Input type="text" name="name" placeholder="Name" />

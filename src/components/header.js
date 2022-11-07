@@ -17,11 +17,16 @@ padding: 50px 100px;
 `
 const ResumeButton = styled.button`
     text-decoration: none;
-    background-color: #7298D7;
-    border: 1px solid black;
+    background-color: #2A2A2A;
+    border: 1px solid #7298D7;
     height: 55px;
     border-radius: 15px;
     color: white;
+    &: hover {
+        background-color: #7298D7;
+        transition: 0.3s ease-out;
+        color: #2A2A2A;
+    }
 `
 
 const Nav = styled.div`
@@ -44,6 +49,7 @@ const ResumeLink = styled.a`
     text-decoration: none;
     font-size: 25px;
     color: #E7E5DF;
+    margin-right: 5px;
     &: hover {
         color: #2A2A2A;
         transition: 0.3s ease-out;
@@ -89,7 +95,7 @@ function Header() {
                     <Link to="contact">Contact</Link>
                 </NavLink>
                 <ResumeButton>
-                    <ResumeLink id="myLink" href="https://docs.google.com/document/d/1JL2DDW9xMgGqjbAPj0sqHvxC6nLBiD2MXlNEg8bXVRQ/edit?usp=sharing" target="_blank">📄 Resume</ResumeLink>
+                    <ResumeLink id="myLink" href="https://docs.google.com/document/d/1JL2DDW9xMgGqjbAPj0sqHvxC6nLBiD2MXlNEg8bXVRQ/edit?usp=sharing" target="_blank">📄Resume</ResumeLink>
                 </ResumeButton>
             </Nav>
 
