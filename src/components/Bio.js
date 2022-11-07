@@ -17,6 +17,7 @@ const BioText = styled.div`
 display: flex;
 width: 50%;
 flex-direction: column;
+font-size: 25px;
 `
 
 const ProfileImage = styled.img`
@@ -55,8 +56,9 @@ function Bio() {
                         repeat={Infinity}
                     />
                 </Title>
-
-                <p>I'm a video game UI programmer and front end web developer with {expYears} years of AAA industry experience.</p>
+                <p>I'm a British American video game UI programmer and front end web developer with {expYears} years of experience in AAA game development.</p>
+                <div>I'm very passionate about UI/UX design and implementation and ensuring that all players have a positive user experience.</div>
+                <br />
                 <Socials>
                     <SocialLink href="https://www.twitter.com/susannahcodes" target="_blank"><FaTwitter className="changeColor" /></SocialLink>
                     <SocialLink href="https://www.linkedin.com/in/susannahcodes" target="_blank"><FaLinkedin className="changeColor" /></SocialLink>
