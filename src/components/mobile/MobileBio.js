@@ -11,8 +11,7 @@ color: #E7E5DF;
 font-size: 30px;
 justify-content: center;
 align-items: center;
-padding: 150px;
-padding-top: 280px;
+padding: 5%;
 `
 const BioText = styled.div`
 display: flex;
@@ -21,6 +20,10 @@ font-size: 25px;
 `
 
 const ProfileImage = styled.img`
+margin-top: 105px;
+margin-bottom: 25px;
+width: 70%;
+
     border-radius: 150px;
     filter: drop-shadow(10px 5px 5px #2A2A2A);
 `
@@ -39,6 +42,33 @@ const Socials = styled.div`
 
 const SocialLink = styled.a`
     padding-right: 15px;
+`
+
+const ResumeButton = styled.button`
+margin-top: 10px;
+width: 45%;
+    text-decoration: none;
+    background-color: #2A2A2A;
+    border: 1px solid #7298D7;
+    height: 55px;
+    border-radius: 15px;
+    color: white;
+    &: hover {
+        background-color: #7298D7;
+        transition: 0.3s ease-out;
+        color: #2A2A2A;
+    }
+`
+
+const ResumeLink = styled.a`
+    text-decoration: none;
+    font-size: 20px;
+    color: #E7E5DF;
+    margin-right: 5px;
+    &: hover {
+        color: #2A2A2A;
+        transition: 0.3s ease-out;
+    }
 `
 
 function MobileBio() {
@@ -64,6 +94,9 @@ function MobileBio() {
                     <SocialLink href="https://www.github.com/susannahjones" target="_blank"><FaGithub className="changeColor" /></SocialLink>
                     <SocialLink href="mailto:susannahcodes@gmail.com"><FaEnvelope className="changeColor" /></SocialLink>
                 </Socials>
+                <ResumeButton>
+                    <ResumeLink id="myLink" href="https://docs.google.com/document/d/1JL2DDW9xMgGqjbAPj0sqHvxC6nLBiD2MXlNEg8bXVRQ/edit?usp=sharing" target="_blank">📄Resume</ResumeLink>
+                </ResumeButton>
             </BioText>
         </BioStyle>
     );
