@@ -23,8 +23,9 @@ const ProfileImage = styled.img`
 margin-top: 105px;
 margin-bottom: 25px;
 width: 70%;
+height: 70%;
 
-    border-radius: 150px;
+    border-radius: 300px;
     filter: drop-shadow(10px 5px 5px #2A2A2A);
 `
 
