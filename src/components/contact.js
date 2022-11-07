@@ -14,14 +14,6 @@ background-color: #E7E5DF;
 color: #2A2A2A;
 `
 
-const ContactForm = styled.form`
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-color: #2A2A2A;
-`
-
 const Input = styled.input`
     width: 800px;
     height: 40px;
@@ -65,7 +57,7 @@ function Contact() {
                 {ContactStrings.subtitle}
             </div>
             <br />
-            <ContactForm name="contact" netlify>
+            <form name="contact" method="POST" data-netlify="true" style={{ display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center", color: "#2A2A2A" }}>
                 <p>
                     <Input type="text" name="name" placeholder="Name" />
                 </p>
@@ -81,7 +73,7 @@ function Contact() {
                 <p>
                     <SubmitButton type="submit">Submit</SubmitButton>
                 </p>
-            </ContactForm>
+            </form>
         </BioStyle >
     );
 }
