@@ -27,6 +27,10 @@ const Input = styled.input`
     height: 40px;
     font-size: 15px;
     border: none;
+    &: focus {
+        outline: none;
+        border-bottom: 2px solid #cb8589;
+    }
 `
 const TextArea = styled.textarea`
     width: 800px;
@@ -34,8 +38,9 @@ const TextArea = styled.textarea`
     border: none;
     resize: none;
     font-family: Segoe UI;
-    &: selection {
-        background-color: #7298D7 !important;
+    &: focus {
+        outline: none;
+        border-bottom: 2px solid #cb8589;
     }
 `
 
@@ -59,6 +64,7 @@ function Contact() {
             <div>
                 {ContactStrings.subtitle}
             </div>
+            <br />
             <ContactForm name="contact" method="POST" data-netlify="true">
                 <p>
                     <Input type="text" name="name" placeholder="Name" />
