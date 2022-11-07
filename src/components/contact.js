@@ -58,6 +58,7 @@ function Contact() {
             </div>
             <br />
             <form name="contact" method="POST" data-netlify="true" style={{ display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center", color: "#2A2A2A" }}>
+                <input type="hidden" name="form-name" value="contact" />
                 <p>
                     <Input required type="text" name="name" placeholder="Name" />
                 </p>
