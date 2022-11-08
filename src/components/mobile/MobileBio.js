@@ -24,10 +24,10 @@ font-size: 20px;
 const ProfileImage = styled.img`
 margin-top: 105px;
 margin-bottom: 25px;
-width: 70%;
-height: 70%;
+width: 225px;
+height: 225px;
 
-    border-radius: 300px;
+    border-radius: 160px;
     filter: drop-shadow(10px 5px 5px #2A2A2A);
 `
 
