@@ -97,7 +97,7 @@ function Header() {
                     <Link to="contact" smooth={true}>Contact</Link>
                 </NavLink>
                 <ResumeButton>
-                    <ResumeLink id="resume" aria-label="Open Resume in New Tab" href="https://www.twitter.com/susannahcodes" href="https://docs.google.com/document/d/1JL2DDW9xMgGqjbAPj0sqHvxC6nLBiD2MXlNEg8bXVRQ/edit?usp=sharing" target="_blank">📄Resume</ResumeLink>
+                    <ResumeLink id="resume" aria-label="Open Resume in New Tab" href="https://docs.google.com/document/d/1JL2DDW9xMgGqjbAPj0sqHvxC6nLBiD2MXlNEg8bXVRQ/edit?usp=sharing" target="_blank">📄Resume</ResumeLink>
                 </ResumeButton>
             </Nav>
 
