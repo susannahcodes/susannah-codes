@@ -10,7 +10,7 @@ display: flex;
 background-color: #2A2A2A;
 color: #E7E5DF;
 height: 0px;
-font-size: 25px;
+font-size: 20px;
 justify-content: space-between;
 align-items: center;
 padding: 40px 100px;
@@ -38,6 +38,7 @@ align-items: center;
 
 const NavLink = styled.p`
     margin-right: 25px;
+    font-size: 20px;
     cursor: pointer;
         &: hover {
         color: #7298D7;
@@ -47,7 +48,7 @@ const NavLink = styled.p`
 
 const ResumeLink = styled.a`
     text-decoration: none;
-    font-size: 25px;
+    font-size: 20px;
     color: #E7E5DF;
     margin-right: 5px;
     &: hover {
@@ -62,6 +63,7 @@ const HomeNavLink = styled.div`
     max-width: 200px;
     max-height: 100px;
     font-family: 'M PLUS Code Latin';
+    font-size: 30px;
     &: hover {
         color: #7298D7;
         transition: 0.3s ease-out;
