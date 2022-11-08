@@ -3,7 +3,7 @@ import { Colors } from "../../content/colors";
 import { SkillStrings } from "../../content/content";
 import { SectionHeader } from "../SectionHeader";
 
-const BioStyle = styled.div`
+const SkillStyle = styled.div`
   padding-left: 15%;
   padding-right: 15%;
   padding-top: 5%;
@@ -46,33 +46,33 @@ const SkillHeader = styled.div`
 `;
 
 function MobileSkills() {
-  return (
-    <BioStyle>
-      <SectionHeader text={SkillStrings.title} />
-      <SkillsWrapper>
-        <Languages>
-          <SkillHeader>{SkillStrings.LanguagesTitle}</SkillHeader>
-          <SkillSubHeader>{SkillStrings.LanguagesSubTitle}</SkillSubHeader>
-          <SkillBullets>
-            <li>{SkillStrings.CPP}</li>
-            <li>{SkillStrings.JS}</li>
-            <li>{SkillStrings.CSharp}</li>
-            <li>{SkillStrings.Python}</li>
-          </SkillBullets>
-        </Languages>
-        <Divider />
-        <Softwares>
-          <SkillHeader>{SkillStrings.SoftwaresTitle}</SkillHeader>
-          <SkillBullets>
-            <li>{SkillStrings.SourceControl}</li>
-            <li>{SkillStrings.IDEs}</li>
-            <li>{SkillStrings.Design}</li>
-            <li>{SkillStrings.GameEngines}</li>
-          </SkillBullets>
-        </Softwares>
-      </SkillsWrapper>
-    </BioStyle>
-  );
+    return (
+        <SkillStyle>
+            <SectionHeader text={SkillStrings.title} />
+            <SkillsWrapper>
+                <Languages>
+                    <SkillHeader>{SkillStrings.LanguagesTitle}</SkillHeader>
+                    <SkillSubHeader>{SkillStrings.LanguagesSubTitle}</SkillSubHeader>
+                    <SkillBullets>
+                        <li>{SkillStrings.CPP}</li>
+                        <li>{SkillStrings.JS}</li>
+                        <li>{SkillStrings.CSharp}</li>
+                        <li>{SkillStrings.Python}</li>
+                    </SkillBullets>
+                </Languages>
+                <Divider />
+                <Softwares>
+                    <SkillHeader>{SkillStrings.SoftwaresTitle}</SkillHeader>
+                    <SkillBullets>
+                        <li>{SkillStrings.SourceControl}</li>
+                        <li>{SkillStrings.IDEs}</li>
+                        <li>{SkillStrings.Design}</li>
+                        <li>{SkillStrings.GameEngines}</li>
+                    </SkillBullets>
+                </Softwares>
+            </SkillsWrapper>
+        </SkillStyle>
+    );
 }
 
 export default MobileSkills;
