@@ -33,9 +33,10 @@ const SkillBullets = styled.div`
 
 const Divider = styled.div`
     background-color: #CB8589;
-    width: 2px;
-    margin-left: 150px;
-    margin-right: 150px;
+    width: 300px;
+    height: 2px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 `
 
 const SkillSubHeader = styled.div`
@@ -64,7 +65,6 @@ function MobileSkills() {
                 <Divider />
                 <Softwares>
                     <SkillHeader>{SkillStrings.SoftwaresTitle}</SkillHeader>
-                    <SkillSubHeader><br />{" "}</SkillSubHeader>
                     <SkillBullets>
                         <li>{SkillStrings.SourceControl}</li>
                         <li>{SkillStrings.IDEs}</li>

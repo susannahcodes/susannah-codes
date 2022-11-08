@@ -11,12 +11,14 @@ color: #E7E5DF;
 font-size: 30px;
 justify-content: center;
 align-items: center;
-padding: 5%;
+padding-left: 15%;
+padding-right: 15%;
+padding-bottom: 10%;
 `
 const BioText = styled.div`
 display: flex;
 flex-direction: column;
-font-size: 25px;
+font-size: 20px;
 `
 
 const ProfileImage = styled.img`
@@ -30,7 +32,7 @@ height: 70%;
 `
 
 const Title = styled.div`
-    font-size: 45px;
+    font-size: 35px;
     font-family: 'M PLUS Code Latin';
 `
 

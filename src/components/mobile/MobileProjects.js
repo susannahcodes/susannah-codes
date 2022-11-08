@@ -17,6 +17,10 @@ flex-wrap: wrap;
 justify-content: center;
 `
 
+const Break = styled.div`
+    height: 20px;
+`
+
 function MobileProjects() {
     return (
         <BioStyle>
@@ -30,6 +34,7 @@ function MobileProjects() {
                     overlayYear={2018}
                     imgSrc="images/Destiny_2.jpg"
                     imgSrcAlt={ProjectStrings.D2AltText} />
+                <Break />
                 <ProjectOverlay
                     overlayTitle={ProjectStrings.THPSTitle}
                     overlayPlatform={ProjectStrings.THPSPlatform}
@@ -38,6 +43,7 @@ function MobileProjects() {
                     overlayPosition={ProjectStrings.THPSPosition}
                     overlayYear={2020}
                     overlayTeam={ProjectStrings.THPSCompany} />
+                <Break />
                 <ProjectOverlay
                     overlayTitle={ProjectStrings.WolverineTitle}
                     overlayPlatform={ProjectStrings.WolverinePlatform}
