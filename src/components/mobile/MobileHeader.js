@@ -10,9 +10,12 @@ display: flex;
 flex-direction: column;
 background-color: #2A2A2A;
 color: #E7E5DF;
-font-size: 15px;
+font-size: 18px;
 justify-content: center;
 align-items: center;
+text-align:  center;
+height: 80px;
+padding-bottom: 2%;
 `
 
 const Nav = styled.div`
@@ -21,9 +24,11 @@ flex-direction: row;
 align-items: center;
 `
 
-const NavLink = styled.p`
-    margin-right: 25px;
+const NavLink = styled.div`
     cursor: pointer;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
         &: hover {
         color: #7298D7;
         transition: 0.3s ease-out;
@@ -33,14 +38,13 @@ const NavLink = styled.p`
 const HomeNavLink = styled.div`
    padding-top: 1%;
     cursor: pointer;
-    font-size: 28px;
+    font-size: 35px;
     font-family: 'M PLUS Code Latin';
     &: hover {
         color: #7298D7;
         transition: 0.3s ease-out;
     }
 `
-
 
 function MobileHeader() {
     return (
