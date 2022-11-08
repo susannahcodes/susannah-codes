@@ -3,8 +3,8 @@ import { ContactStrings } from "../content/content"
 import { SectionHeader } from "./SectionHeader";
 
 const BioStyle = styled.div`
-padding-left: 20%;
-padding-right: 20%;
+padding-left: 15%;
+padding-right: 15%;
 padding-top: 5%;
 padding-bottom: 5%;
 display: flex;

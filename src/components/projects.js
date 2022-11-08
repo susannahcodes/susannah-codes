@@ -4,8 +4,8 @@ import { ProjectOverlay } from "./projectOverlay";
 import { SectionHeader } from "./SectionHeader";
 
 const BioStyle = styled.div`
-padding-left: 20%;
-padding-right: 20%;
+padding-left: 12%;
+padding-right: 12%;
 padding-top: 5%;
 padding-bottom: 5%;
 background-color: #E7E5DF;
