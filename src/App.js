@@ -1,41 +1,41 @@
-import './App.css';
+import "./App.css";
 import styled from "styled-components";
-import Header from './components/header';
-import Bio from './components/Bio';
-import Contact from './components/contact';
-import Projects from './components/projects';
-import Skills from './components/skills';
-import MobileBio from './components/mobile/MobileBio';
-import MobileHeader from './components/mobile/MobileHeader';
-import MobileProjects from './components/mobile/MobileProjects';
-import MobileSkills from './components/mobile/MobileSkills';
-import MobileContact from './components/mobile/MobileContact';
-import { Element } from 'react-scroll';
-import { useEffect, useState } from 'react'
-
+import Header from "./components/header";
+import Bio from "./components/Bio";
+import Contact from "./components/contact";
+import Projects from "./components/projects";
+import Skills from "./components/skills";
+import MobileBio from "./components/mobile/MobileBio";
+import MobileHeader from "./components/mobile/MobileHeader";
+import MobileProjects from "./components/mobile/MobileProjects";
+import MobileSkills from "./components/mobile/MobileSkills";
+import MobileContact from "./components/mobile/MobileContact";
+import { Element } from "react-scroll";
+import { useEffect, useState } from "react";
+import { Colors } from "./content/colors";
 
 const Divider = styled.div`
-  background-color: #cb8589;
+  background-color: ${Colors.pink};
   height: 3px;
-`
+`;
 
 export const App = () => {
-  const [isDesktop, setDesktop] = useState(null)
+  const [isDesktop, setDesktop] = useState(null);
 
   useEffect(() => {
-    if (typeof window !== 'undefined') {
-      setDesktop(window.innerWidth > 800)
+    if (typeof window !== "undefined") {
+      setDesktop(window.innerWidth > 800);
     }
-  }, [])
+  }, []);
 
   const updateMedia = () => {
-    setDesktop(window.innerWidth > 900)
-  }
+    setDesktop(window.innerWidth > 900);
+  };
 
   useEffect(() => {
-    window.addEventListener("resize", updateMedia)
-    return () => window.removeEventListener("resize", updateMedia)
-  })
+    window.addEventListener("resize", updateMedia);
+    return () => window.removeEventListener("resize", updateMedia);
+  });
 
   if (isDesktop === true) {
     return (
@@ -58,9 +58,7 @@ export const App = () => {
         </Element>
       </div>
     );
-  }
-
-  else if (isDesktop !== true) {
+  } else if (isDesktop !== true) {
     return (
       <div>
         <MobileHeader />
@@ -80,7 +78,6 @@ export const App = () => {
           <MobileContact id="contact" />
         </Element>
       </div>
-    )
+    );
   }
-
-}
+};

@@ -1,7 +1,6 @@
 # Welcome to my personal site (susannah.codes)
 
-A simple one page portfolio site, bootstrapped off of create-react-app, hosted on Netlify. 
-
+A simple one page portfolio site, bootstrapped off of create-react-app, hosted on Netlify.
 
 ### `npm start`
 
