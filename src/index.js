@@ -8,12 +8,6 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
-    <form name="contact" netlify netlify-honeypot="bot-field" hidden>
-      <input type="text" name="name" />
-      <input type="email" name="email" />
-      <input type="email" name="subject" />
-      <textarea name="message"></textarea>
-    </form>
   </React.StrictMode>
 );
 
