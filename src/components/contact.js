@@ -22,6 +22,7 @@ const Input = styled.input`
     &: focus {
         outline: none;
         border-bottom: 2px solid #cb8589;
+        transition: 0.3s ease-out;
     }
 `
 const TextArea = styled.textarea`
@@ -33,12 +34,13 @@ const TextArea = styled.textarea`
     &: focus {
         outline: none;
         border-bottom: 2px solid #cb8589;
+        transition: 0.3s ease-out;
     }
 `
 
 const SubmitButton = styled.button`
     background-color: #7298D7;
-    color: white;
+    color: #2A2A2A;
     height: 50px;
     width: 100px;
     border: none;
@@ -46,6 +48,8 @@ const SubmitButton = styled.button`
     font-size: 20px;
     &: hover {
         background-color: #2A2A2A;
+        color: #E7E5DF;
+        transition: 0.3s ease-out;
     }
 `
 

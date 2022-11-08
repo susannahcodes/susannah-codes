@@ -11,7 +11,7 @@ font-size: 30px;
 justify-content: center;
 align-items: center;
 padding: 150px;
-padding-top: 280px;
+padding-top: 250px;
 `
 const BioText = styled.div`
 display: flex;
