@@ -92,13 +92,13 @@ function MobileBio() {
                 <div>I'm very passionate about UI/UX design and implementation and ensuring that all players have a positive user experience.</div>
                 <br />
                 <Socials>
-                    <SocialLink href="https://www.twitter.com/susannahcodes" target="_blank"><FaTwitter className="changeColor" /></SocialLink>
-                    <SocialLink href="https://www.linkedin.com/in/susannahcodes" target="_blank"><FaLinkedin className="changeColor" /></SocialLink>
-                    <SocialLink href="https://www.github.com/susannahjones" target="_blank"><FaGithub className="changeColor" /></SocialLink>
-                    <SocialLink href="mailto:susannahcodes@gmail.com"><FaEnvelope className="changeColor" /></SocialLink>
+                    <SocialLink aria-label="Twitter Account" href="https://www.twitter.com/susannahcodes" target="_blank"><FaTwitter className="changeColor" /></SocialLink>
+                    <SocialLink aria-label="LinkedIn Account" href="https://www.linkedin.com/in/susannahcodes" target="_blank"><FaLinkedin className="changeColor" /></SocialLink>
+                    <SocialLink aria-label="Github Account" href="https://www.github.com/susannahjones" target="_blank"><FaGithub className="changeColor" /></SocialLink>
+                    <SocialLink aria-label="Open an Email to Susannah" href="mailto:susannahcodes@gmail.com"><FaEnvelope className="changeColor" /></SocialLink>
                 </Socials>
                 <ResumeButton>
-                    <ResumeLink id="myLink" href="https://docs.google.com/document/d/1JL2DDW9xMgGqjbAPj0sqHvxC6nLBiD2MXlNEg8bXVRQ/edit?usp=sharing" target="_blank">📄Resume</ResumeLink>
+                    <ResumeLink id="resume" aria-label="Open resume in new tab" href="https://docs.google.com/document/d/1JL2DDW9xMgGqjbAPj0sqHvxC6nLBiD2MXlNEg8bXVRQ/edit?usp=sharing" target="_blank">📄Resume</ResumeLink>
                 </ResumeButton>
             </BioText>
         </BioStyle>
