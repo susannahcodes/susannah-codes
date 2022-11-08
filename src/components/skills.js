@@ -24,9 +24,10 @@ display: flex;
 justify-content: center;
 `
 
-const SkillBullets = styled.div`
+const SkillBullets = styled.ul`
     font-size: 20px;
-    padding-top: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 `
 
 const Divider = styled.div`
