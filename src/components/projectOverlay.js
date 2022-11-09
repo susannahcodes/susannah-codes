@@ -8,7 +8,7 @@ const HoverContainer = styled.div`
 `;
 
 const Overlay = styled.div`
-  width: 350px;
+  width: 320px;
   height: 450px;
   opacity: 0;
   transition: 0.5s ease;
@@ -41,28 +41,28 @@ const SubTitle = styled.div`
 `;
 
 export const ProjectOverlay = ({
-  imgSrc,
-  imgSrcAlt,
-  overlayTitle,
-  overlayPlatform,
-  overlayPosition,
-  overlayTeam,
-  overlayYear,
+    imgSrc,
+    imgSrcAlt,
+    overlayTitle,
+    overlayPlatform,
+    overlayPosition,
+    overlayTeam,
+    overlayYear,
 }) => {
-  return (
-    <HoverContainer>
-      <Overlay>
-        <Text>
-          {overlayTitle}
-          <br />
-          <SubTitle> {overlayPlatform} </SubTitle>
-          <SubTitle> {overlayYear} </SubTitle>
-          <br />
-          <SubTitle> {overlayPosition} </SubTitle>
-          <SubTitle> {overlayTeam}</SubTitle>
-        </Text>
-      </Overlay>
-      <OverlayImage src={imgSrc} alt={imgSrcAlt} />
-    </HoverContainer>
-  );
+    return (
+        <HoverContainer>
+            <Overlay>
+                <Text>
+                    {overlayTitle}
+                    <br />
+                    <SubTitle> {overlayPlatform} </SubTitle>
+                    <SubTitle> {overlayYear} </SubTitle>
+                    <br />
+                    <SubTitle> {overlayPosition} </SubTitle>
+                    <SubTitle> {overlayTeam}</SubTitle>
+                </Text>
+            </Overlay>
+            <OverlayImage src={imgSrc} alt={imgSrcAlt} />
+        </HoverContainer>
+    );
 };
