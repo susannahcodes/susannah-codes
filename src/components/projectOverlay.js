@@ -8,7 +8,7 @@ const HoverContainer = styled.div`
 `;
 
 const Overlay = styled.div`
-  width: 320px;
+  width: 310px;
   height: 450px;
   opacity: 0;
   transition: 0.5s ease;
