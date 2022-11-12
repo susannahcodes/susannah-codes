@@ -84,7 +84,7 @@ function Bio() {
           </SocialLink>
           <SocialLink
             aria-label="Github Account"
-            href="https://www.github.com/susannahjones"
+            href="https://www.github.com/susannahcodes"
             target="_blank"
           >
             <FaGithub className="changeColor" />
