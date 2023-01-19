@@ -71,11 +71,6 @@ function MobileHeader() {
             Skills
           </Link>
         </NavLink>
-        <NavLink>
-          <Link to="contact" smooth={true}>
-            Contact
-          </Link>
-        </NavLink>
       </Nav>
     </HeaderStyle>
   );
