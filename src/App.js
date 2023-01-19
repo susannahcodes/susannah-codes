@@ -2,7 +2,6 @@ import "./App.css";
 import styled from "styled-components";
 import Header from "./components/header";
 import Bio from "./components/Bio";
-import Contact from "./components/contact";
 import Projects from "./components/projects";
 import Skills from "./components/skills";
 import MobileBio from "./components/mobile/MobileBio";
@@ -53,9 +52,6 @@ export const App = () => {
           <Skills id="skills" />
         </Element>
         <Divider />
-        <Element name="contact">
-          <Contact id="contact" />
-        </Element>
       </div>
     );
   } else if (isDesktop !== true) {
@@ -74,9 +70,6 @@ export const App = () => {
           <MobileSkills id="skills" />
         </Element>
         <Divider />
-        <Element name="contact">
-          <MobileContact id="contact" />
-        </Element>
       </div>
     );
   }
