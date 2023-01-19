@@ -12,7 +12,7 @@ const ProjectsStyle = styled.div`
 const ProjectsWrapper = styled.div`
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-evenly;
 `;
 
 function Projects() {

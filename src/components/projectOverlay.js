@@ -5,6 +5,7 @@ const HoverContainer = styled.div`
   width: 350px;
   height: 450px;
   position: relative;
+  padding-bottom: 20px;
 `;
 
 const Overlay = styled.div`
