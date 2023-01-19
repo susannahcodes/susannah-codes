@@ -94,11 +94,6 @@ function Header() {
             Skills
           </Link>
         </NavLink>
-        <NavLink>
-          <Link to="contact" smooth={true}>
-            Contact
-          </Link>
-        </NavLink>
         <ResumeButton>
           <ResumeLink
             id="resume"
