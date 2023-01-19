@@ -52,47 +52,47 @@ const SubmitButton = styled.button`
 `;
 
 function Contact() {
-    return (
-        <ContactStyle>
-            <SectionHeader text={ContactStrings.title} />
-            <div>{ContactStrings.subtitle}</div>
-            <br />
-            <form
-                name="contact"
-                method="POST"
-                data-netlify="true"
-                style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: Colors.slate,
-                }}
-            >
-                <input type="hidden" name="form-name" value="contact" />
-                <p>
-                    <Input required type="text" name="name" placeholder="Name" />
-                </p>
-                <p>
-                    <Input required type="email" name="email" placeholder="Email" />
-                </p>
-                <p>
-                    <Input required type="text" name="subject" placeholder="Subject" />
-                </p>
-                <p>
-                    <TextArea
-                        required
-                        rows="7"
-                        name="message"
-                        placeholder="Message"
-                    ></TextArea>
-                </p>
-                <p>
-                    <SubmitButton type="submit">{ContactStrings.submit}</SubmitButton>
-                </p>
-            </form>
-        </ContactStyle>
-    );
+  return (
+    <ContactStyle>
+      <SectionHeader text={ContactStrings.title} />
+      <div>{ContactStrings.subtitle}</div>
+      <br />
+      <form
+        name="contact"
+        method="POST"
+        data-netlify="true"
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          justifyContent: "center",
+          alignItems: "center",
+          color: Colors.slate,
+        }}
+      >
+        <input type="hidden" name="form-name" value="contact" />
+        <p>
+          <Input required type="text" name="name" placeholder="Name" />
+        </p>
+        <p>
+          <Input required type="email" name="email" placeholder="Email" />
+        </p>
+        <p>
+          <Input required type="text" name="subject" placeholder="Subject" />
+        </p>
+        <p>
+          <TextArea
+            required
+            rows="7"
+            name="message"
+            placeholder="Message"
+          ></TextArea>
+        </p>
+        <p>
+          <SubmitButton type="submit">{ContactStrings.submit}</SubmitButton>
+        </p>
+      </form>
+    </ContactStyle>
+  );
 }
 
 export default Contact;
