@@ -8,7 +8,6 @@ import MobileBio from "./components/mobile/MobileBio";
 import MobileHeader from "./components/mobile/MobileHeader";
 import MobileProjects from "./components/mobile/MobileProjects";
 import MobileSkills from "./components/mobile/MobileSkills";
-import MobileContact from "./components/mobile/MobileContact";
 import { Element } from "react-scroll";
 import { useEffect, useState } from "react";
 import { Colors } from "./content/colors";
