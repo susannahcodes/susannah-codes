@@ -47,6 +47,15 @@ function Projects() {
           overlayPosition={ProjectStrings.WolverinePosition}
           overlayTeam={ProjectStrings.WolverineCompany}
         />
+        <ProjectOverlay
+          overlayTitle={ProjectStrings.Spiderman2Title}
+          overlayPlatform={ProjectStrings.Spiderman2Platform}
+          imgSrc="images/sm2.png"
+          imgSrcAlt={ProjectStrings.Spiderman2AltText}
+          overlayYear="TBA"
+          overlayPosition={ProjectStrings.Spiderman2Position}
+          overlayTeam={ProjectStrings.Spiderman2Company}
+        />
       </ProjectsWrapper>
     </ProjectsStyle>
   );

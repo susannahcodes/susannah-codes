@@ -27,6 +27,8 @@ export const ProjectStrings = {
         "Tony Hawk's Pro Skater 1+2 promotional image. A 3D representation of Tony Hawk is posed skating mid-air off a ramp over the game's logo.",
     WolverineAltText:
         "Marvel's Wolverine promotional image. A logo that reads 'Marvel's Wolverine' is depicted against a black background.",
+    Spiderman2AltText:
+        "Marvel's Spider-Man 2 box art. Miles Morales and Peter Parker are posed in costume against a red background. A logo that reads 'Marvel's Spider-Man 2' is placed above their heads.",
 
     D2Title: "Destiny 2: Black Armory DLC",
     D2Platform: "PC, Xbox One, and PlayStation 4",
@@ -43,9 +45,15 @@ export const ProjectStrings = {
     WolverinePosition: "UI/UX Programmer",
     WolverineCompany: "Insomniac Games, UI/UX Team",
 
+    WolverineTitle: "Marvel's Spider-Man 2",
+    WolverinePlatform: "PlayStation 5",
+    WolverinePosition: "UI/UX Programmer",
+    WolverineCompany: "Insomniac Games, UI/UX Team",
+
     D2OverlayText: "",
     THPSOverlayText: "",
     WolverineOverlayText: "",
+    Spiderman2OverlayText: "",
 };
 
 export const BioStrings = {
