@@ -8,7 +8,7 @@ export const SkillStrings = {
     title: "Skills",
     LanguagesTitle: "Languages",
     LanguagesSubTitle: "*in order of most experience",
-    SoftwaresTitle: "Softwares",
+    SoftwaresTitle: "Software",
     CPP: "C++",
     JS: "JavaScript/TypeScript",
     CSharp: "C#",

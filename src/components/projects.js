@@ -52,7 +52,7 @@ function Projects() {
           overlayPlatform={ProjectStrings.Spiderman2Platform}
           imgSrc="images/sm2.png"
           imgSrcAlt={ProjectStrings.Spiderman2AltText}
-          overlayYear="TBA"
+          overlayYear={2023}
           overlayPosition={ProjectStrings.Spiderman2Position}
           overlayTeam={ProjectStrings.Spiderman2Company}
         />
