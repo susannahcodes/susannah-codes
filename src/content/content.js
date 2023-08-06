@@ -45,10 +45,10 @@ export const ProjectStrings = {
     WolverinePosition: "UI/UX Programmer",
     WolverineCompany: "Insomniac Games, UI/UX Team",
 
-    WolverineTitle: "Marvel's Spider-Man 2",
-    WolverinePlatform: "PlayStation 5",
-    WolverinePosition: "UI/UX Programmer",
-    WolverineCompany: "Insomniac Games, UI/UX Team",
+    Spiderman2Title: "Marvel's Spider-Man 2",
+    Spiderman2Platform: "PlayStation 5",
+    Spiderman2Position: "UI/UX Programmer",
+    Spiderman2Company: "Insomniac Games, UI/UX Team",
 
     D2OverlayText: "",
     THPSOverlayText: "",
