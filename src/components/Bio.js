@@ -69,13 +69,6 @@ function Bio() {
         <br />
         <Socials>
           <SocialLink
-            aria-label="Twitter Account"
-            href="https://www.twitter.com/susannahcodes"
-            target="_blank"
-          >
-            <FaTwitter className="changeColor" />
-          </SocialLink>
-          <SocialLink
             aria-label="LinkedIn Account"
             href="https://www.linkedin.com/in/susannahcodes"
             target="_blank"
