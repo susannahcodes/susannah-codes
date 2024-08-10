@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import "../Bio.css";
-import { FaTwitter, FaLinkedin, FaGithub, FaEnvelope } from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaEnvelope } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
 import { Colors } from "../../content/colors";
 
@@ -98,13 +98,6 @@ function MobileBio() {
         </div>
         <br />
         <Socials>
-          <SocialLink
-            aria-label="Twitter Account"
-            href="https://www.twitter.com/susannahcodes"
-            target="_blank"
-          >
-            <FaTwitter className="changeColor" />
-          </SocialLink>
           <SocialLink
             aria-label="LinkedIn Account"
             href="https://www.linkedin.com/in/susannahcodes"
