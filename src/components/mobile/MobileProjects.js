@@ -48,15 +48,6 @@ function MobileProjects() {
                 />
                 <Break />
                 <ProjectOverlay
-                    overlayTitle={ProjectStrings.WolverineTitle}
-                    overlayPlatform={ProjectStrings.WolverinePlatform}
-                    imgSrc="images/wolverine.jpg"
-                    imgSrcAlt={ProjectStrings.WolverineAltText}
-                    overlayYear="TBA"
-                    overlayPosition={ProjectStrings.WolverinePosition}
-                    overlayTeam={ProjectStrings.WolverineCompany}
-                />
-                <ProjectOverlay
                     overlayTitle={ProjectStrings.Spiderman2Title}
                     overlayPlatform={ProjectStrings.Spiderman2Platform}
                     imgSrc="images/sm2.png"
@@ -64,6 +55,15 @@ function MobileProjects() {
                     overlayYear={2023}
                     overlayPosition={ProjectStrings.Spiderman2Position}
                     overlayTeam={ProjectStrings.Spiderman2Company}
+                />
+                <ProjectOverlay
+                    overlayTitle={ProjectStrings.WolverineTitle}
+                    overlayPlatform={ProjectStrings.WolverinePlatform}
+                    imgSrc="images/wolverine.jpg"
+                    imgSrcAlt={ProjectStrings.WolverineAltText}
+                    overlayYear="TBA"
+                    overlayPosition={ProjectStrings.WolverinePosition}
+                    overlayTeam={ProjectStrings.WolverineCompany}
                 />
             </ProjectsWrapper>
         </ProjectStyle>
