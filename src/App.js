@@ -13,7 +13,7 @@ import { useEffect, useState } from "react";
 import { Colors } from "./content/colors";
 
 const Divider = styled.div`
-  background-color: ${Colors.pink};
+  background-color: ${Colors.blue};
   height: 3px;
 `;
 
