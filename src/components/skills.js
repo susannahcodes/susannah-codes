@@ -24,7 +24,7 @@ const SkillBullets = styled.ul`
 `;
 
 const Divider = styled.div`
-  background-color: ${Colors.pink};
+  background-color: ${Colors.blue};
   width: 2px;
   margin: 0px 150px;
 `;
