@@ -1,8 +1,3 @@
-export const ContactStrings = {
-    title: "Contact",
-    subtitle: "Have a question for me? Feel free to use the form below.",
-    submit: "Submit"
-};
 
 export const SkillStrings = {
     title: "Skills",
