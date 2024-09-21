@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import "./Bio.css";
-import { FaLinkedin, FaGithub, FaEnvelope } from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaEnvelope, FaBluesky } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
 import { Colors } from "../content/colors";
 
@@ -87,6 +87,13 @@ function Bio() {
             href="mailto:susannahcodes@gmail.com"
           >
             <FaEnvelope className="changeColor" />
+          </SocialLink>
+          <SocialLink
+            aria-label="Bluesky"
+            href="https://bsky.app/profile/susannah.codes"
+            target="_blank"
+          >
+            <FaBluesky className="changeColor" />
           </SocialLink>
         </Socials>
       </BioText>
