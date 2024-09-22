@@ -1,6 +1,8 @@
 import styled from "styled-components";
 import "./Bio.css";
-import { FaLinkedin, FaGithub, FaEnvelope, FaBluesky } from "react-icons/fa";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faLinkedinIn, faGithub, faBluesky } from '@fortawesome/free-brands-svg-icons'
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { TypeAnimation } from "react-type-animation";
 import { Colors } from "../content/colors";
 
@@ -73,27 +75,27 @@ function Bio() {
             href="https://www.linkedin.com/in/susannahcodes"
             target="_blank"
           >
-            <FaLinkedin className="changeColor" />
+            <FontAwesomeIcon icon={faLinkedinIn} className="changeColor" />
           </SocialLink>
           <SocialLink
             aria-label="Github Account"
             href="https://www.github.com/susannahcodes"
             target="_blank"
           >
-            <FaGithub className="changeColor" />
+            <FontAwesomeIcon icon={faGithub} aGithub className="changeColor" />
           </SocialLink>
           <SocialLink
             aria-label="Open an Email to Susannah"
             href="mailto:susannahcodes@gmail.com"
           >
-            <FaEnvelope className="changeColor" />
+            <FontAwesomeIcon icon={faEnvelope} className="changeColor" />
           </SocialLink>
           <SocialLink
             aria-label="Bluesky"
             href="https://bsky.app/profile/susannah.codes"
             target="_blank"
           >
-            <FaBluesky className="changeColor" />
+            <FontAwesomeIcon icon={faBluesky} className="changeColor" />
           </SocialLink>
         </Socials>
       </BioText>
