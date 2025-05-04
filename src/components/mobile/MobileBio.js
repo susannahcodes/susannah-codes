@@ -115,8 +115,8 @@ function MobileBio() {
             <FontAwesomeIcon icon={faGithub} className="changeColor" />
           </SocialLink>
           <SocialLink
-            aria-label="Open an Email to Susannah"
-            href="mailto:susannahcodes@gmail.com"
+            aria-label="Email"
+            href="mailto:susannah_hardin@pm.me"
           >
             <FontAwesomeIcon icon={faEnvelope} className="changeColor" />
           </SocialLink>
