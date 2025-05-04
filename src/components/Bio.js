@@ -86,7 +86,7 @@ function Bio() {
           </SocialLink>
           <SocialLink
             aria-label="Open an Email to Susannah"
-            href="mailto:susannahcodes@gmail.com"
+            href="mailto:susannah_hardin@pm.me"
           >
             <FontAwesomeIcon icon={faEnvelope} className="changeColor" />
           </SocialLink>
